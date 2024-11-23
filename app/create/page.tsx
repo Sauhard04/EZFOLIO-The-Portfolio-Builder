@@ -127,7 +127,7 @@ const DashboardPage: React.FC = () => {
     <motion.div
       initial={{ opacity: 0, translateY: 200 }}
       animate={{ opacity: 1, translateY: 0 }}
-      variant={{ x: 50 }}
+      
       className="container mt-10 min-h-[900px] max-w-7xl shadow-lg shadow-primary relative"
     >
       <div className="flex items-center justify-center">
