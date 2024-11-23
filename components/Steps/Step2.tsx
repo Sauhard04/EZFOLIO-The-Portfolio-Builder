@@ -19,7 +19,7 @@ const Step2: React.FC<Step2Props> = ({ school, setSchool, shadowColor }) => {
             className={shadowColor}
             type="text"
             id="school"
-            placeholder="Koç University"
+            placeholder="abc University"
             value={school}
             onChange={(e) => setSchool(e.target.value)}
           />

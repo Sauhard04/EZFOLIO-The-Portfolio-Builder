@@ -35,7 +35,7 @@ const ProjectForm = ({
         <Input
           className="shadow-lg shadow-pink-500"
           type="text"
-          placeholder="Hixfolio"
+          placeholder="EZFOLIO"
           id="link"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -44,7 +44,7 @@ const ProjectForm = ({
           <Input
             className="shadow-lg shadow-pink-500"
             type="text"
-            placeholder="Project Link"
+            placeholder="Link"
             id="url"
             value={url}
             onChange={(e) => setUrl(e.target.value)}

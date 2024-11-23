@@ -34,7 +34,7 @@ const CreateIdPage = () => {
         <StepBar step={step} />
         <div>
           <h1 className="text-4xl md:text-6xl text-center font-extrabold">
-            Complete Your Profil
+            Complete Your Profile
           </h1>
         </div>
         <div

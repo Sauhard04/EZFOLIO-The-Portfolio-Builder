@@ -9,7 +9,7 @@ const nunitoSans = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Hixfolio",
+  title: "EZFOLIO",
   description: "Portfolio Builder",
 };
 

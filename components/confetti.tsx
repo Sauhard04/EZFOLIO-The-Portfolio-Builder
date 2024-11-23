@@ -25,7 +25,7 @@ const ConfettiPage = () => {
       onClick={triggerConfetti}
       className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-primary to-indigo-900 text-4xl font-semibold cursor-pointer"
     >
-      hix
+      EZFOLIO
     </h1>
   );
 };

@@ -15,16 +15,16 @@ const Footer = () => {
       className="shadow-primary shadow-md m-1 mt-10 h-[100px]"
     >
       <div className="flex items-center justify-between h-full container max-w-7xl">
-        <div>© 24082026 0258</div>
+        
         <ConfettiPage />
         <div className="flex items-center justify-center gap-3">
-          <Link href={"https://www.linkedin.com/in/canbedir/"}>
+          <Link href={"https://www.linkedin.com/in/iuhiuauh9a/"}>
             <IoLogoLinkedin size={30} />
           </Link>
-          <Link href={"https://www.github.com/canbedir"}>
+          <Link href={"https://www.github.com/canbedirjhbai"}>
             <FaGithub size={30} />
           </Link>
-          <Link href={"https://www.x.com/canhix"}>
+          <Link href={"https://www.x.com/jiaokjnaq09"}>
             <FaXTwitter size={25} />
           </Link>
         </div>

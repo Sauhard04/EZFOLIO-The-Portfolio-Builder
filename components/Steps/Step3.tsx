@@ -29,7 +29,7 @@ const Step3: React.FC<Step3Props> = ({
                 className={shadowColor}
                 type="text"
                 id="company"
-                placeholder="Hix Ltd"
+                placeholder="abc Ltd"
                 value={company}
                 onChange={(e) => setCompany(e.target.value)}
               />
@@ -40,7 +40,7 @@ const Step3: React.FC<Step3Props> = ({
                 className={shadowColor}
                 type="text"
                 id="jobposition"
-                placeholder="Backend Developer"
+                placeholder="position"
                 value={jobPosition}
                 onChange={(e) => setJobPosition(e.target.value)}
               />

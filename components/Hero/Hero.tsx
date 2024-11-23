@@ -57,7 +57,7 @@ const Hero = () => {
                 variant={"link"}
                 className="text-xl font-bold dark:text-blue-600"
               >
-                Load More
+                Load More..
               </Button>
             </Link>
           </div>
@@ -74,7 +74,7 @@ const Hero = () => {
                 variant={"link"}
                 className="text-xl font-bold dark:text-blue-600"
               >
-                Load More
+                Load More.. 
               </Button>
             </Link>
           </div>
@@ -91,7 +91,7 @@ const Hero = () => {
                 variant={"link"}
                 className="text-xl font-bold dark:text-blue-600"
               >
-                Load More
+                Load More..
               </Button>
             </Link>
           </div>

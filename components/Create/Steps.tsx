@@ -372,7 +372,7 @@ const Steps: React.FC<StepsProps> = ({ step, setStep }) => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `hixfolio_${name}.html`;
+    a.download = `EZFOLIO_${name}.html`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -592,7 +592,7 @@ const Steps: React.FC<StepsProps> = ({ step, setStep }) => {
               variant="outline"
               disabled={step === 1}
             >
-              Geri
+              Back
             </Button>
           </div>
           <div className="absolute bottom-3 right-5">
@@ -602,7 +602,7 @@ const Steps: React.FC<StepsProps> = ({ step, setStep }) => {
               size="lg"
               disabled={isNextDisabled}
             >
-              İleri
+              Next..
             </Button>
           </div>
         </>

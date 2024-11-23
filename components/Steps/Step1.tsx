@@ -59,7 +59,7 @@ const Step1: React.FC<Step1Props> = ({
                 className={shadowColor}
                 type="text"
                 id="name"
-                placeholder="Irmak Balota"
+                placeholder="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -70,7 +70,7 @@ const Step1: React.FC<Step1Props> = ({
                 className={shadowColor}
                 type="text"
                 id="JobTitle"
-                placeholder="Fullstack Developer"
+                placeholder="position"
                 value={jobTitle}
                 onChange={(e) => setJobTitle(e.target.value)}
               />
@@ -80,7 +80,7 @@ const Step1: React.FC<Step1Props> = ({
             <Label htmlFor="profilePic">Profile Picture</Label>
             <img
               className="h-[80px] w-[80px] object-cover rounded-full"
-              src={profilePic ? profilePic : "Resim Yükle"}
+              src={profilePic ? profilePic : "profile"}
               alt=""
             />
             <Input
@@ -100,7 +100,7 @@ const Step1: React.FC<Step1Props> = ({
                 className={shadowColor}
                 type="text"
                 id="Email"
-                placeholder="hix@dev.com"
+                placeholder="user@gmail.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -111,7 +111,7 @@ const Step1: React.FC<Step1Props> = ({
                 className={shadowColor}
                 type="text"
                 id="City"
-                placeholder="Istanbul"
+                placeholder="city"
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
               />
@@ -123,7 +123,7 @@ const Step1: React.FC<Step1Props> = ({
               className={shadowColor}
               type="text"
               id="Phone"
-              placeholder="000 000 00 00"
+              placeholder="0000000000"
               value={phone}
               onChange={handlePhoneChange}
             />
